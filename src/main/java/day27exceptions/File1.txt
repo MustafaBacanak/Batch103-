@@ -6,4 +6,4 @@ OOP has four principles;
  3)Encapsulation
  4)Abstraction
 
- tüm task bittikten sonra -1 değerini alıyor
+tüm task bittikten sonra -1 değerini alıyor

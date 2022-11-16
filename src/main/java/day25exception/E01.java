@@ -26,7 +26,7 @@ public class E01 {
     // isminin yanina bunu=olusabilecek exeptionu deklare edebiliriz.
     //2-)Eger kodun calismaya devam etmesini istiyorsak sorun olusturabilecek kodu try chatch blogunun icine alir
     // try bloguna sorun cikabilecek kodu catch bloguna olusabilecek exeption'i ve olasi exeption durumunda
-    // Javanin ne yapmasini istedigimizi yazabiliriz
+    // Javanin ne yapmasini istedigimizi yazabiliriz.
 
     public static void main(String[] args) {
         divide(6, 2);//3
@@ -58,9 +58,9 @@ public class E01 {
             System.out.println("bye exception");
 
         } catch (ArithmeticException e) {
-            System.out.println("Bolme isleminde bir problem olustu==>" + e.getMessage());
+            System.out.println("Bolme isleminde bir problem olustuuuu==>"+e.getMessage() );
             e.printStackTrace();
-            System.err.println("Bolme isleminde bir problem olustu"); // terminale notu kırmızı yazar
+            System.err.println("Bolme isleminde bir problem olustu knk"); // terminale notu kırmızı yazar
 
         }
     }

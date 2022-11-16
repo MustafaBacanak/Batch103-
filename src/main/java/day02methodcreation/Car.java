@@ -11,7 +11,7 @@ Note: Class ==> Variable ==> Object ==>
  */
     public static void main(String[] args) {
 
-        //Obect nasil olusturulur ?
+        //Object nasil olusturulur ?
 
         //1)Class ismini yaziniz.   2)Objeye isim veriniz   3) =    4)new keyword'unu kullan    5) Class ismi parantezle beraber
 

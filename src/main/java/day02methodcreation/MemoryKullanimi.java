@@ -1,6 +1,7 @@
 package day02methodcreation;
 
 public class MemoryKullanimi {
+
     /*
    1)Java'da iki turlu memory var.
       i)Stack Memory:
@@ -17,9 +18,6 @@ public class MemoryKullanimi {
 
       Note: Class ==> Variable ==> Object
                       Method
-
-
-
      */
 
 }

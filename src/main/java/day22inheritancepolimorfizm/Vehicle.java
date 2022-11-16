@@ -1,6 +1,7 @@
 package day22inheritancepolimorfizm;
 
 public class Vehicle {
+
     public String type;
     public Vehicle(){
 

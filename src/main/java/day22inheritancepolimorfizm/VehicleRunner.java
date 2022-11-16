@@ -9,6 +9,10 @@ public class VehicleRunner {
 
         HondaAccord hacc =new HondaAccord(250000,2200);
 
+        System.out.println(hacc.year);
+        System.out.println(hacc.type);
+
+
 
     }
 }
