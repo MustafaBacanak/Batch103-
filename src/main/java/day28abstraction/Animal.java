@@ -8,10 +8,10 @@ public abstract class Animal {
     public abstract void eat();
 
     //"abstract class"larda hem "abstract" method hem de "concrete"(abstract olmayan) method kullanilabilir.
-    //"abstract" soyut , "concrete" somut.
+    //"abstract" soyut , "concrete" somut demektir.
 
     public void drink(){
-        System.out.println("Animal drink...");
+        System.out.println("Animals drink...");
     }
 
     //abstract "move" method olusturunuz

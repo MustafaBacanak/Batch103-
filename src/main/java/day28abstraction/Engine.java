@@ -24,7 +24,6 @@ public interface Engine {
     //"public abstract void eco();" ile "void eco();" aynı anlama gelir
 
 
-
      void eco();
 
      void ges();
@@ -48,7 +47,6 @@ public interface Engine {
      /*
 
                         * * * ABSTRACT vs INTERFACE * * *
-
       1) Abstract :
 
          1.1 - Class`dir.
@@ -69,7 +67,7 @@ public interface Engine {
          2.5 - Hiz acisindan abstract class`a gore yavastir.
          2.6 - Icindeki tum nesnelerin public olmasi gerekir.
          2.7 - Method'lar static olamaz
-         2.8 - Abstract class constructor`a sahiptir
+         2.8 - Interface'lerde constructor yoktur.
 
      */
 

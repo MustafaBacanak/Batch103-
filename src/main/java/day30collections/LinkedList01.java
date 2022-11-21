@@ -67,17 +67,15 @@ public class LinkedList01 {
         }
         System.out.println(students);//[Chris, *****, Mark, Tom, Jeremy, Hans]
 
-        //Example 2: Listteki 4 harften çok harf iceren isimleri siliniz.
-
 
         //            * * *  Interview Sorusu * * *
 
         //Example 2: List'deki 4 harften çok harf içeren isimleri siliniz.
         //Eleman sayısını azaltacağımız için i'ye ihtiyacımız var, o yüzden for-each loop değil for loop kullanırız.
 
-        for (int i = 0; i<students.size(); i++) {
+        for (int i = 0; i<students.size(); i++) { //[Mark, Tom, Hans]
 
-            if (students.get(i).length()>4){
+            if (students.get(i).length()>4){   //[Chris, Alexandre, Mark, Tom, Jeremy, Hans]
                 students.remove(students.get(i));
                 i--;
             }
@@ -86,8 +84,7 @@ public class LinkedList01 {
 
         //2.Yol
         LinkedList<String> students1 = new LinkedList<>();
-
-        for (String w:students){
+        for (String w:students){  //[Chris, Alexandre, Mark, Tom, Jeremy, Hans]
             if (w.length()>4){
                 students1.add(w);
             }

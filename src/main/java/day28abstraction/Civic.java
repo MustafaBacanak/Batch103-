@@ -37,4 +37,5 @@ public class Civic implements Engine,Ac,Hood { // Bir Class'i bir interface'in c
     public void steel() {
         System.out.println("Hood is made by steel");
     }
+
 }

@@ -42,21 +42,22 @@ public class LinkedListNotes {
         Ör:sözlük yapacaksak ArrayList kullanmalıyız
  >>Bu dezavantajları gidermek için Java LinkedList oluşturmuş.
       LinkedList eleman ekleme ve çıkarma işlemlerinde başarılı.
-      linked listte her Nod iki bölümden oluşur:
+      linked listte her Node iki bölümden oluşur:
       ilk bölüme data konulduğu için bunlara data bölümü derler.
       ikinci bölümler ise pointer bölümleri, tüm pointerler bir sonraki bölümü gösterir.
       vagon gibi bir yapı oluştu hepsi bir sonrakine(linked) bağlı.
-      iki bölümden oluşan bu yapının ismi: Nod.
-      bu yapının en son Nod'un pointer kısmı null gösterir.
-      en son Nod'un özel ismi: Tail.
-      ilk Nod'un ismi: Head, içinde sadece pointer kısmı var data kısmı yok.
+      iki bölümden oluşan bu yapının ismi: Node.
+      bu yapının en son Node'un pointer kısmı null gösterir.
+      en son Node'un özel ismi: Tail.
+      ilk Node'un ismi: Head, içinde sadece pointer kısmı var data kısmı yok.
       --Biz LinkedListte bir elemanı silince(elemanı silmek için elemanın sağ ve solundaki okları sileriz)
-        Javanın çöp toplayıcısı garbage collector pointer ile işaret edilmeyen Nod'u imha eder.
-        Sonra Java silinen Nod'un iki tarafını birbirine bağlamak için yeni bir pointer oluşturur.
-      --Eleman ekleme: iki nod arasındaki pointer'ı silip, eklemek istediğimiz Null'u diğer iki
-        Nod'a bağlayan iki yeni pointer oluştururuz.
+        Javanın çöp toplayıcısı garbage collector pointer ile işaret edilmeyen Node'u imha eder.
+        Sonra Java silinen Node'un iki tarafını birbirine bağlamak için yeni bir pointer oluşturur.
+      --Eleman ekleme: iki node arasındaki pointer'ı silip, eklemek istediğimiz Null'u diğer iki
+        Node'a bağlayan iki yeni pointer oluştururuz.
       +Ne zaman çokça ekleme ve çıkarma yaparız Ör: müzeye giren çıkan insanlar.
-      +Arraylist kullanınca çokça ekleme ve çıkarma yaptığımız zaman application donar bu yüzden az gelişmiş ülkelerin applicationları donar detayları düşünmeden application yazarlar.
+      +Arraylist kullanınca çokça ekleme ve çıkarma yaptığımız zaman application donar,
+       bu yüzden az gelişmemiş ülkelerin applicationları donar detayları düşünmeden application yazarlar.
     i) dezavantajı: ındex olmadığı için adres yok.Bir elemanı bulurken sırayla o elemana kadar olan tüm elemanlara
        senden sonrakı şu mu? diye sorar ve o elmanı bulana kadar eleman eleman ilerler.
        --Search(Eleman bulma) işlemlerinde başarısızdır.

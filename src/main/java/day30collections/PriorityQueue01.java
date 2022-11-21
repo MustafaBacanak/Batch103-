@@ -1,10 +1,12 @@
 package day30collections;
 
+import java.util.LinkedList;
 import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class PriorityQueue01 {
 
-    //(oncelik)PriorityQueue Java kendisine gore bir oncelik belirleyerek siralama yapar
+    //(oncelik)PriorityQueue Java kendisine gore bir oncelik belirleyerek siralama yapar.
     //Biz istersek siralamayi belirleyebiliriz
     public static void main(String[] args) {
 

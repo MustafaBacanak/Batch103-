@@ -13,13 +13,13 @@ public class LinkedHashSet01 {
 
 
     LinkedHashSet<String > emails=new LinkedHashSet<>();
-    emails.add("abc@gmail.com");
-    emails.add("bca@gmail.com");
-    emails.add("asc@gmail.com");
-    emails.add("bde@gmail.com");
-    emails.add("axy@gmail.com");
+    emails.add("b@gmail.com");
+    emails.add("a@gmail.com");
+    emails.add("m@gmail.com");
+    emails.add("c@gmail.com");
+    emails.add("n@gmail.com");
 
-    System.out.println(emails);//[abc@gmail.com, bca@gmail.com, asc@gmail.com, bde@gmail.com, axy@gmail.com]
+    System.out.println(emails);//[a@gmail.com, c@gmail.com, b@gmail.com, m@gmail.com, n@gmail.com]
 
 
 

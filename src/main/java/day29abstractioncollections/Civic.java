@@ -9,16 +9,16 @@ public class Civic implements Engine,Ac{
         * "interface"ler yapilacak isler listesidir. (To do list)
 
         * "multiple parent interface" kullandiginizda ayni method ismi ile birden fazla method olusturursaniz
-           bu methodlarin return typle'lari ayni olmalidir aksi takdirde hata verir.
+           bu methodlarin return typle'lari ayni olmalidir aksi takdirde hata verir. ( void run(); methodu ikisinde de aynı olmali)
 
-        * "interface" lerde constructor olmadigi icin interface'lerden object olusturulamaz
+        * "interface" lerde constructor olmadigi icin interface'lerden object olusturulamaz.
         * "abstract class" larda class olduklari icin constructor vardir.
            Ama constructorlar abstract classlarda object olusturamazlar.
 
      *** Soru : "Abstract Class" ile "Interface"in farklari nelerdir ?
 
              1)Method
-                  "Abstract Class" hem abstract hemde concrete methodlar vardir.
+                  "Abstract Class" hem abstract hem de concrete methodlar vardir.
                   "Interface"ler ise sadece abstract method'lar icerir
                   Ama istersek interface'ler icinde de "default" ve "static" keyword kullanarak
                   concrete methodlar olusturabiliriz.

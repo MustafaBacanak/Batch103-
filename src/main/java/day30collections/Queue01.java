@@ -3,7 +3,7 @@ package day30collections;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class Queue01 {
+public class    Queue01 {
 
     /*
         Ilk giren elemani ilk kullanmaniz(First in - First Out ==> FIFO) gerektiginde "Queue" en iyi secenektir.

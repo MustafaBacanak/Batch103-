@@ -12,7 +12,7 @@ import java.io.IOException;
 
     * "throw" methodun body'si icinde kullanilir. "throws" ise methodun isminden sonra kullanilir.
     * "throw" dan sonra object olusturulur. "throws" dan sonra ise sadece Exception Class'in ismi yazilir.
-    * "throw" methodun icinde istedigimiz yerde "Exception" üretmek icin kullanilir."throws" ise var olan
+    * "throw", methodun icinde istedigimiz yerde "Exception" üretmek icin kullanilir."throws" ise var olan
       checked (Compile Time) Exception'i atmak icin kullanilir.
     * Yani "throw" Exception üretir. "throws" var olan Exception'i atar.
     * "throw" dan sonra sadece 1 tane Exception olabilir.

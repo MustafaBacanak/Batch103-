@@ -1,28 +1,26 @@
 package day31maps;
 
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
 /*
-        1)Map'ler key-value structure kullanir
-        2)Key'ler unique'dir.(Tekrarsiz)
-        3)Value'lar tekrarli data icerebilir
-        4)Map'lerde eleman degil EntrySet kullaniriz.
-        5)Key'ler de null tekrarsiz olarak kullanilir
-        6)Value'lar null kabul eder.
-        7)HashMap'ler EntrySet'leri herhangibir siralamaya tabi tutmaz, rastgele siralar
-        8)Siralama ile vakit kaybetmedigi icin HashMap'ler cok hizli calisirlar.
-     */
+     1)Map'ler key-value structure kullanir
+     2)Key'ler unique'dir.(Tekrarsiz)
+     3)Value'lar tekrarli data icerebilir
+     4)Map'lerde eleman degil EntrySet kullaniriz.
+     5)Key'ler de null tekrarsiz olarak kullanilir
+     6)Value'lar null kabul eder.
+     7)HashMap'ler EntrySet'leri herhangibir siralamaya tabi tutmaz, rastgele siralar
+     8)Siralama ile vakit kaybetmedigi icin HashMap'ler cok hizli calisirlar.
+ */
 public class HashMap01 {
 
     public static void main(String[] args) {
 
         HashMap<String, Integer> studentAges = new HashMap<>();
+
         studentAges.put("Ali", 13);
-        studentAges.put("Tom", 21);
-        studentAges.put("Brad", 12);
+        studentAges.put("Tom", 36);
+        studentAges.put("Brad", 25);
         studentAges.put("Ajda", 76);
         studentAges.put("Cuneyt", 75);
         studentAges.put("Ali", 88);//Ayni key degerini tekrar kullandiginizda hata vermez "overwrite" yapar
@@ -56,7 +54,7 @@ public class HashMap01 {
         }
         System.out.println("Ortalama Yas: " + (sum/counter));// Ortalama Yas: 56.333333333333336
 
-        //Example 2: A ile baslamayan isimlerin icerdigi toplam karakter sayisini bulan kodu yaziniz.
+        //Example 2: A ile baslamayan Stringler'in toplam karakter sayisini bulan kodu yaziniz.
         //           [null, Ayhan Isik, Sadri Alisik, Tom, Ajda, Brad, Cuneyt, Ali]
         Set<String> names = studentAges.keySet();
         int sum1 = 0;
@@ -85,7 +83,7 @@ public class HashMap01 {
         System.out.println(studentAges);
 
         Integer result4 = studentAges.putIfAbsent("Ayhan Isik", 100);
-        System.out.println(result4);
+        System.out.println(result4);//100
         System.out.println(studentAges);
 
         //"putIfAbsent" Key yoksa ekleme yapar
@@ -102,12 +100,14 @@ public class HashMap01 {
         System.out.println(studentAges);
 
 
-        //Example 3:Map deki herbir entry'i ekrana farkli bir satirda olacak sekilde yazdiriniz.
+        //Example 3:Map deki her bir entry'i ekrana farkli bir satirda olacak sekilde yazdiriniz.
         //          {Ayhan Isik=100, Sadri Alisik=null, Tom=21, Brad=12, Cuneyt=75, Acun Ilicali=49, Ali=88}
 
         //entrySet() method'u Map'deki elemanlari bir Set'in icine koyarak size verir
-        Set<Map.Entry<String,Integer>> entries = studentAges.entrySet();
-        for(Map.Entry<String,Integer> w : entries){
+
+        Set<Map.Entry<String,Integer>> entries =studentAges.entrySet();
+
+        for(Map.Entry<String, Integer> w : entries){
             System.out.println(w);
         }
     }
