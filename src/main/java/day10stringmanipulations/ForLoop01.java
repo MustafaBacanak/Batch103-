@@ -83,9 +83,6 @@ public class ForLoop01 {
             if(s.indexOf(s.charAt(i))==s.lastIndexOf(c)){
 
                 System.out.print(c);//He Ai
-
-                String a = "Tom Hanks";
-
             }
         }
     }

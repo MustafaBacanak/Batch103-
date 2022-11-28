@@ -2,6 +2,7 @@ package day17arraylists;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class ArrayLists03 {
@@ -11,7 +12,6 @@ public class ArrayLists03 {
         //              {12,15,19,30,21} ==> 19 ve 21
 
         List<Integer> a = new ArrayList<>();
-
         a.add(12);
         a.add(19);
         a.add(15);
@@ -34,11 +34,6 @@ public class ArrayLists03 {
             }
         }
         System.out.println(x + " ve " + y);
-
-
-
-
-
 
     }
 }

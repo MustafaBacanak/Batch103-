@@ -1,7 +1,9 @@
 package day13loopsarrays;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 public class Arrays01 {
 
@@ -114,6 +116,27 @@ public class Arrays01 {
                 System.out.print(w);
             }
         }
+
+        System.out.println();
+        //Kullanıcıdan girdi olarak bir Dize alan ve bu dizide meydana gelen maksimum karakteri
+        //bulan bir Java programı yazın. (Büyük/küçük harf duyarlılığını göz ardı edin).
+
+        String str= "Learning, java is easy.";
+
+//        str=str.replaceAll("\\p{Punct}","");
+//        str=str.replaceAll("\\s+","");
+//        String arr[]=str.split("");
+//        List<String> list1 = new ArrayList<>(List.of(arr));
+//        System.out.println(list1);
+
+        for (int j = 0; j < str.length() ; j++) {
+            char x=str.charAt(i);
+            if(str.indexOf(x)!=(str.lastIndexOf(x))){
+                System.out.println(str);
+            }
+
+        }
+
 
     }
 }

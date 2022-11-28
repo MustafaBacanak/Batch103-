@@ -17,5 +17,4 @@ public abstract class Animal {
     //abstract "move" method olusturunuz
     public abstract void move();
 
-
 }

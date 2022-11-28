@@ -18,15 +18,21 @@ public class Iterators01 {
         //for-each loop kullanarak her elemanin sonuna "!" ekleyiniz
         //Note: loop'lar kendi baslarina "Collection" lari update edemezler bu yuzden Java "iterator" lari olusturdu.
         //Iterator'lar Collection'lari update etmek icin kullanilir.
+
         for(String w : myList){
             w = w + "!";
         }
         System.out.println(myList);// [Z, K, A, J, M]
+
+
         ListIterator<String> itr = myList.listIterator();
+
         while(itr.hasNext()){
             String el = itr.next();
             itr.set(el + "!");
         }
+
         System.out.println(myList);// [Z!, K!, A!, J!, M!]
+
     }
 }

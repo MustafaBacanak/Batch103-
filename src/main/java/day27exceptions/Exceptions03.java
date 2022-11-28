@@ -4,7 +4,8 @@ public class Exceptions03 {
 
     /*
         1)Java Exception'lar oluşturarak Developer'ların Java kurallarına uymalarını temin etmiştir.
-        2)Biz de Application üretirken kendi Exception'larımızı oluşturarak diğer Developer'ların bizim ortaya koyduğumuz kurallara uymalarını temin ederiz.
+        2)Biz de Application üretirken kendi Exception'larımızı oluşturarak diğer
+          developer'ların bizim ortaya koyduğumuz kurallara uymalarını temin ederiz.
         3)Java'nın değil, bizim ürettiğimiz Exception'lara "Custom Exception" denir.
         4)Custom Exception'lar da "RuntimeException" ve "CompileTimeException" olabilir.
         5)Custom "RuntimeException" üretmek için "extends RuntimeException" deriz.

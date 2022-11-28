@@ -43,7 +43,7 @@ public class ForLoop01 {
 
         String aa= "Kaba";
 
-        //Concatenation yapacajsaniz "" kullanin
+        //Concatenation yapacaksaniz "" kullanin
 
         String ters = "";
 
@@ -66,9 +66,7 @@ public class ForLoop01 {
         }
         System.out.println(b);
 
-
-        ///
-
+        //
 
         String f = " America ";
 

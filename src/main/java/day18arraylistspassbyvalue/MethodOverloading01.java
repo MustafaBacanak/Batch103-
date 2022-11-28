@@ -18,6 +18,7 @@ public class MethodOverloading01 {
     public static void main(String[] args) {
         add(3,5);
         add(3,5.0);
+        add(3,8,9);
 
     }
 
