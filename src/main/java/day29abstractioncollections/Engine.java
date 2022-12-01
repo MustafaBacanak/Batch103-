@@ -12,7 +12,8 @@ public interface Engine extends Vehicle  {
     //interfacelerdeki tum variable'lar otomatik olarak(default) "public"dir.
     //interfacelerdeki tum variable'lar otomatik olarak(default) "final"dir.
     //interfacelerdeki tum variable'lar otomatik olarak(default) "static"dir.
-    int price=2000;
+
+    int v1=2000;
     double weight =23.5;
 
     void run();

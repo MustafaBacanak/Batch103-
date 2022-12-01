@@ -1,8 +1,10 @@
 package day29abstractioncollections;
 
-public interface Ac extends Vehicle{
+import day28abstraction.Engine;
 
-    int price=3000;
+public interface Ac extends Engine {
+
+    int v1=3000;
     int weight =20;
     void run();
 

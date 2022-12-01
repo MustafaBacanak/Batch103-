@@ -16,12 +16,13 @@ public interface Engine {
     //interface'lerdeki tum methodlar "abstract" olmak zorundadır.
 
     //interface'lerde abstact method olustururken "abstract" keyword kullanmaya gerek yoktur.
-    //Cunku java onun abstract oldugunu bilir
+    //Cunku java onun abstract oldugunu bilir.
 
     //interface'lerdeki metodlar Java tarafindan otomatik olarak public kabul edilir
     //Bu yuzden o methodlar icin public yazmaya gerek yoktur.
 
     //"public abstract void eco();" ile "void eco();" aynı anlama gelir
+
 
 
      void eco();
@@ -30,19 +31,19 @@ public interface Engine {
 
      void tsi();
 
-     //interface'ler icerisinde "concrete" method kullanmak isterseniz "default keyword" ile kullanabilirsiniz. Bu istisnai bir durumdur.
+     //interface'ler icerisinde "concrete" method kullanmak isterseniz "default keyword" ile kullanabilirsiniz.
+     // Bu istisnai bir durumdur.
      public default int add(int a, int b){
           return a+b;
      }
 
-     //interface'ler icerisinde "concrete" method kullanmak isterseniz "static keyword" ile kullanabilirsiniz. Bu istisnai bir durumdur.
+     //interface'ler icerisinde "concrete" method kullanmak isterseniz "static keyword" ile kullanabilirsiniz.
+     // Bu istisnai bir durumdur.
 
      public static String update(String str){
           return str+"!";
 
      }
-
-
 
      /*
 
