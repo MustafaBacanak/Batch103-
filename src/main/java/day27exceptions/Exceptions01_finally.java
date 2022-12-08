@@ -32,13 +32,13 @@ public class Exceptions01_finally {
         return result;
     }
 
-//    Interview sorusu :
-//    "final", "finally", "finalize" nedir?
-//    final(keyword): ==> final method override edilemez.
-//    final variable degeri degistirilemez.
-//    final class child class sahibi olamaz.
-//    finally(code block) ==> try-catch block'dan sonra kullanilir ve Exception atilsa da atilmasa da calisir.
-//    finalize(method) ==> Garbage Collector bir data'yi imha etmeden once calistirir.
+    //    Interview sorusu :
+    //    "final", "finally", "finalize" nedir?
+    //    final(keyword): ==> final method override edilemez.
+    //    final variable degeri degistirilemez.
+    //    final class child class sahibi olamaz.
+    //    finally(code block) ==> try-catch block'dan sonra kullanilir ve Exception atilsa da atilmasa da calisir.
+    //    finalize(method) ==> Garbage Collector bir data'yi imha etmeden once calistirir.
 
     /*
         "final" , "finally" , "finalize" aciklayiniz.

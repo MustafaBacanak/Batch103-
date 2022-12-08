@@ -25,7 +25,6 @@ public class ReadFileLineByLine {
         readFileLineByLine();
 
     }
-
     public static void readFileLineByLine() {
 
         try {
