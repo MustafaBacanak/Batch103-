@@ -21,26 +21,33 @@ public class Iterators02 {
 
         ListIterator<String> itr =myList.listIterator();
 
-        //hasNext() methodu pointer'dan sonra eleman varsa "true" yoksa "false" return eder.
-        //next() methodu pointeri bir sonraki elemanın onune koyar ve ustunden atladigi elemani return eder.
+        //hasNext() methodu pointer'dan SONRA eleman varsa "true" yoksa "false" return eder.
+        //next() methodu pointeri bir SONRAKİ elemanın onune koyar ve ustunden atladigi elemani return eder.
         while (itr.hasNext()){
-            itr.next();
+            String abc =itr.next();
+            System.out.print(abc);
         }
 
-        //hasPrevious() methodu pointer'dan once eleman varsa "true" yoksa "false" return eder.
-        //previous() methodu pointeri bir onceki elemanın sonuna koyar ve ustunden atladigi elemani return eder.
+        System.out.println();
+
+        //hasPrevious() methodu pointer'dan ÖNCE eleman varsa "true" yoksa "false" return eder.
+        //previous() methodu pointeri bir ÖNCEKİ elemanın sonuna koyar ve ustunden atladigi elemani return eder.
+
         while (itr.hasPrevious()){
             String el = itr.previous();
             System.out.print(el + " ");
         }
 
+        System.out.println();
+
         //Ex2 : List'deki tum elemanlari siliniz.
 
-        while (itr.hasNext()){
+        while (itr.hasNext()) {
             itr.next();
             itr.remove();
         }
         System.out.println(myList);
+
 
      /*
         ListIterator : 1)hasNext(), 2)next(), 3)set() , 4)hasPrevios(), 5)previous, 6)remove()
@@ -49,9 +56,9 @@ public class Iterators02 {
 
      */
 
-        //Eger iki tarafli haraket etmek istemiyorsan Iterator
-        //Eger list elemanlarinin degistirilmesini istemiyorsak Iter
-        //Eger sadece silmek istemiyorsani Iterator
+        //Eger iki tarafli haraket etmek istemiyorsan > Iterator
+        //Eger list elemanlarinin degistirilmesini istemiyorsak > Iterator
+        //Eger sadece silmek istemiyorsaniz > Iterator
 
         List<String> yourList = new ArrayList<>();
         yourList.add("Z");
@@ -64,7 +71,7 @@ public class Iterators02 {
 
         while (itr1.hasNext()){
             String el = itr1.next();
-            System.out.println(el);
+            System.out.print(el);
         }
     }
 }

@@ -16,7 +16,7 @@ public class Iterators01 {
         myList.add("M");
 
         //for-each loop kullanarak her elemanin sonuna "!" ekleyiniz
-        //Note: loop'lar kendi baslarina "Collection" lari update edemezler bu yuzden Java "iterator" lari olusturdu.
+        //Note: loop'lar kendi baslarina "Collection" lari update edemezler bu yuzden Java "iterator" lari olusturmuştur.
         //Iterator'lar Collection'lari update etmek icin kullanilir.
 
         for(String w : myList){
