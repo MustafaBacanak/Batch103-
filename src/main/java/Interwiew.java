@@ -570,6 +570,6 @@ C79: 5 tanedir;
 * S80: Yerel değişkenler (local variables)’in varsayılan değeri (default value) nedir?
 C80: Yerel değişkenler (local variables), herhangi bir varsayılan değerle (default value) başlatılmaz.
 
-
+xy
      */
 }
